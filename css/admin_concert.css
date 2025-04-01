@@ -1,0 +1,39 @@
+.searchResult > a:not(.none) {
+    grid-template-columns: 8.70% 10.87% 15.22% 27.17% 10.87% 16.30% 10.87%;
+}
+
+#result.box {
+    padding: 24px;
+}
+
+.checkbox {
+    background-color: transparent;
+    width: 40px;
+    height: 35px;
+}
+#result svg {
+    fill: var(--f3);
+}
+#result .checkbox:hover svg {
+    fill: var(--main-color);
+}
+
+
+.input-box {
+    width: 250px;
+}
+
+#add, #delete {
+    height: 35px;
+    padding: 8px 24px;
+    border-radius: 8px;
+    color: white;
+    font-size: var(--fs-14);
+    font-weight: 300;
+}
+#add {
+    background-color: var(--main-color);
+}
+#delete {
+    background-color: #FF4B4B;
+}

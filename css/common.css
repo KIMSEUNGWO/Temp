@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url(/fonts/Pretendard-Light.otf) format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url(/fonts/Pretendard-Medium.otf) format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url(/fonts/Pretendard-SemiBold.otf) format('opentype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url(/fonts/Pretendard-Bold.otf) format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url(/fonts/Pretendard-ExtraBold.otf) format('opentype');
+    font-weight: 800;
+}
+
+:root {
+    --main-color: #5F43FF;
+    --main-color-hover: #5337f1;
+    --main-color-background: #EDEAFF;
+
+    --background-color:#F7F7FB;
+    --stroke-color: #E5E5EC;
+
+    --f1: #111111;
+    --f2: #505050;
+    --f3: #767676;
+
+    --fs-21: 21px;
+    --fs-16: 16px;
+    --fs-14: 14px;
+    --fs-12: 12px;
+    --fs-10: 10px;
+}
+
+*{
+    font-family: 'Pretendard';
+    font-weight: 400;
+    box-sizing: border-box;
+    margin: 0;
+    color: var(--f2);
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+button * {
+    pointer-events: none;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.box {
+    background-color: white;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+}
+.input-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+    padding: 10px 16px;
+    border-radius: 12px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1),
+                inset -1px -1px 1px white;
+    background-color: #EBEBF1;
+}
+.info-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.info-card > svg, .info-card > div {
+    color: var(--f2);
+    fill: var(--f3);
+}
+.info-card > span, .info-card > a {
+    color: var(--f1);
+}
+input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+h1, h2, h3 {
+    color: var(--f1);
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+span {
+    line-height: 140%;
+}
+
+.container {
+    display: flex;
+}
+
+article {
+    padding: 32px;
+    width: calc(100% - 260px);
+}
+.poster {
+    aspect-ratio: 7 / 10;
+}
+.profile {
+    border-radius: 100%;
+}

@@ -1,0 +1,98 @@
+.articleHeader {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 36px;
+}
+.articleHeader h3 {
+    margin: 0;
+}
+.settingBox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.box {
+    padding: 15px;
+}
+/* 여기서부터 */
+.concert {
+    display: flex;
+    gap: 26px;
+}
+.concertWrapper {
+    display: flex;
+    gap: 12px;
+}
+.poster {
+    border-radius: 12px;
+}
+
+
+.concert-info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 12px;
+}
+.flex-info {
+    display: flex;
+    align-content: center;
+    gap: 12px;
+}
+.extra-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px  ;
+}
+.location-box a {
+    text-decoration: underline;
+}
+
+.grid-card {
+    min-width: 250px;
+}
+.grid-card > ul {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-bottom: 1px #eee solid;
+}
+
+.openDate > ul, .price > ul {
+    grid-template-columns: 50% 50%;
+    height: 40px;
+}
+.schedule > ul {
+    grid-template-columns: 40% 60%;
+    height: 50px;
+}
+.grid-top {
+    background-color: #F7F7FB;
+    height: 40px !important;
+}
+
+.info-card {
+    min-width: 250px;
+}
+
+.event {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.profile {
+    width: 30px;
+    height: 30px;
+}
+
+.participantsInfo {
+    width: 480px;
+}
+.participantsInfo > span {
+    display: inline-block;
+    margin-bottom: 10px;
+
+}

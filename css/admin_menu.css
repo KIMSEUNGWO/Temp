@@ -1,0 +1,56 @@
+
+aside {
+    width: 260px;
+    padding: 16px 0;
+    border-right: 1px var(--stroke-color) solid;
+}
+aside a {
+    text-decoration: none;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+.text {
+    font-size: var(--fs-16);
+}
+.menu .submenu-link {
+    font-size: var(--fs-14);
+    color: var(--f3);
+}
+
+.menu-item {
+    padding: 0 40px 0 20px;
+}
+.menu-link {
+    display: inline-block;
+    width: 100%;
+    height: 56px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    gap: 8px;
+}
+.menu-link.enter {
+    box-shadow: inset -1px 1px rgba(255, 255, 255, 1), 
+            inset 1px 2px rgba(17, 0, 116, 0.15);
+    background-color: var(--main-color-background);
+}
+.menu-link.enter span {
+    color: var(--main-color);
+}
+.menu-link.enter path {
+    fill: var(--main-color);
+}
+
+.submenu {
+    padding-left: 40px;
+}
+.submenu-item {
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
